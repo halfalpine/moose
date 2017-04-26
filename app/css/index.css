@@ -395,10 +395,11 @@ li {
   font-size: 2vh;
   font-family: monospace; }
 
-.landing {
+#landing {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  height: 95vh; }
 
 .landing-headline {
   margin: 25vh 0 0 0;
@@ -423,3 +424,7 @@ li {
   font-family: cursive; }
   .link-item:first-child {
     border-left: none; }
+
+#portfolio {
+  height: 100vh;
+  background: aqua; }
