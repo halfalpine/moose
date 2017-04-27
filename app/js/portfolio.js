@@ -2,26 +2,38 @@
 
   const Data = [
     {
-      projectURL: 'foo',
+      projectURL: 'spaghetti',
       projectTitle: 'bar',
-      descriptionURL: 'baz'
     },
     {
-      projectURL: 'a',
-      projectTitle: 'b',
-      descriptionURL: 'c'
+      projectURL: 'california',
+      projectTitle: 'california',
+    },
+    {
+      projectURL: 'dirk',
+      projectTitle: 'dirk'
+    },
+    {
+      projectURL: 'milk',
+      projectTitle: 'milk',
+    },
+    {
+      projectURL: 'sloper',
+      projectTitle: 'sloper',
+    },
+    {
+      projectURL: 'dirk',
+      projectTitle: 'glass'
     }
   ];
 
   let createFigure = function(data) {
     return `
       <figure>
-        <a href="#{projectURL}"><img src="#" alt="#{projectTitle}"></a>
         <figcaption>
-          <a href="#{projectURL}">
-            <h2 class="project-title">#{projectTitle}</h2>
+          <a href=${data.projectURL}>
+            <p class="project-title">${data.projectTitle}</p>
           </a>
-          <p class="project-description">More info</p>
         </figcaption>
       </figure>
     `
@@ -29,7 +41,9 @@
 
   let portfolio = document.querySelector('.portfolio-container');
 
-  portfolio.innerHTML = Data.forEach(item => createFigure(item));
+  Data.map(item => console.log(item));
+  portfolio.innerHTML = Data.map(item => createFigure(item))
+    .join('');
 
   console.log('hi');
 })();
