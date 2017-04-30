@@ -2720,6 +2720,21 @@ li {
   cursor: pointer;
   list-style: none; }
 
+.resume-container {
+  display: none; }
+
+object {
+  height: 100vh;
+  width: 100vw; }
+
+.show {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw; }
+
 .top {
   height: 2.5vh;
   background: crimson;
@@ -2816,27 +2831,27 @@ li {
     width: 15vw;
     margin: 2vw;
     border-radius: 5%;
-    box-shadow: 0 0 15px #ff3700;
     animation-name: pulse;
-    animation-duration: 2s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #ff3700; }
+      background-color: #00ffaa;
+      box-shadow: 0 0 15px #00ffaa; }
     #contact figure:nth-child(2) {
-      background-color: #ff6200;
-      box-shadow: 0 0 15px #ff6200; }
+      background-color: #00ffea;
+      box-shadow: 0 0 15px #00ffea; }
     #contact figure:nth-child(3) {
-      background-color: darkorange;
-      box-shadow: 0 0 15px darkorange; }
+      background-color: #00d5ff;
+      box-shadow: 0 0 15px #00d5ff; }
     #contact figure:nth-child(4) {
-      background-color: #ffb700;
-      box-shadow: 0 0 15px #ffb700; }
+      background-color: #0095ff;
+      box-shadow: 0 0 15px #0095ff; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #00c8ff;
-      box-shadow: 0 0 15px #00c8ff; }
+      background-color: #ff0055;
+      box-shadow: 0 0 15px #ff0055; }
 
 @keyframes pulse {
   0% {
