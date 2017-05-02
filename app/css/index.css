@@ -7,6 +7,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Archivo+Black|Archivo+Narrow");
 html {
   line-height: 1.15;
   /* 1 */
@@ -2705,16 +2706,17 @@ template {
   box-sizing: border-box; }
 
 body {
-  background: url("http://unsplash.it/1200") no-repeat center center;
-    background-size: cover;
-  max-height: 100vh; }
+  background: url("http://unsplash.it/1200") no-repeat center center cover;
+  max-height: 100vh;
+  font-family: 'Archivo Black', sans-serif; }
 
 a {
   color: black;
   text-decoration: none; }
 
 ul {
-  padding: 0; }
+  padding: 0;
+  font-family: 'Archivo Narrow', sans-serif; }
 
 li {
   cursor: pointer;
@@ -2837,21 +2839,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #00ffaa;
-      box-shadow: 0 0 15px #00ffaa; }
+      background-color: #ff00ea;
+      box-shadow: 0 0 15px #ff00ea; }
     #contact figure:nth-child(2) {
-      background-color: #00ffea;
-      box-shadow: 0 0 15px #00ffea; }
+      background-color: #ff00aa;
+      box-shadow: 0 0 15px #ff00aa; }
     #contact figure:nth-child(3) {
-      background-color: #00d5ff;
-      box-shadow: 0 0 15px #00d5ff; }
+      background-color: #ff006a;
+      box-shadow: 0 0 15px #ff006a; }
     #contact figure:nth-child(4) {
-      background-color: #0095ff;
-      box-shadow: 0 0 15px #0095ff; }
+      background-color: #ff002b;
+      box-shadow: 0 0 15px #ff002b; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #ff0055;
-      box-shadow: 0 0 15px #ff0055; }
+      background-color: #00ff15;
+      box-shadow: 0 0 15px #00ff15; }
 
 @keyframes pulse {
   0% {
