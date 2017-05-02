@@ -2763,11 +2763,12 @@ object {
 .link-list {
   margin: 10vh 0 0 0;
   border: 1px solid black;
-  border-radius: 10%; }
+  border-radius: 5px; }
 
 .link-item {
   display: inline-block;
-  padding: .5vw 1vw;
+  height: 2em;
+  width: 10vw;
   border-left: 1px solid black;
   font-size: 2vh;
   font-family: cursive; }
@@ -2839,21 +2840,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #9d00ff;
-      box-shadow: 0 0 15px #9d00ff; }
+      background-color: #ff000d;
+      box-shadow: 0 0 15px #ff000d; }
     #contact figure:nth-child(2) {
-      background-color: #dd00ff;
-      box-shadow: 0 0 15px #dd00ff; }
+      background-color: #ff3300;
+      box-shadow: 0 0 15px #ff3300; }
     #contact figure:nth-child(3) {
-      background-color: #ff00e1;
-      box-shadow: 0 0 15px #ff00e1; }
+      background-color: #ff7300;
+      box-shadow: 0 0 15px #ff7300; }
     #contact figure:nth-child(4) {
-      background-color: #ff00a2;
-      box-shadow: 0 0 15px #ff00a2; }
+      background-color: #ffb300;
+      box-shadow: 0 0 15px #ffb300; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #62ff00;
-      box-shadow: 0 0 15px #62ff00; }
+      background-color: #00fff2;
+      box-shadow: 0 0 15px #00fff2; }
 
 @keyframes pulse {
   0% {
