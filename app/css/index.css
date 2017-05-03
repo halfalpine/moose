@@ -2705,6 +2705,9 @@ template {
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  font-size: 62.5%; }
+
 body {
   background: url("http://unsplash.it/1200") no-repeat center center cover;
   max-height: 100vh; }
@@ -2750,20 +2753,20 @@ object {
   height: 97.5vh; }
 
 .landing-headline {
-  margin: 25vh 0 0 0;
+  margin: 30vh 0 2vh 0;
   line-height: 8vh;
-  font-size: 8vh;
+  font-size: 10rem;
   font-family: 'Archivo Black', sans-serif; }
 
 .landing-subhead {
-  font-size: 2vh;
+  font-size: 3rem;
   font-family: 'Archivo Black', sans-serif;
-  letter-spacing: 1em; }
+  letter-spacing: 1.5rem; }
 
 .link-list {
   display: flex;
   justify-content: center;
-  margin: 10vh 35vw;
+  margin: 15vh 35vw;
   border: 1px solid black;
   border-radius: 5px; }
 
@@ -2774,8 +2777,9 @@ object {
   height: 2em;
   width: 10vw;
   border-left: 1px solid black;
-  font-size: 2vh;
-  font-family: 'Archivo Narrow', sans-serif; }
+  font-size: 3rem;
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: .25rem; }
   .link-item:first-child {
     border-left: none; }
 
@@ -2844,21 +2848,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #11ff00;
-      box-shadow: 0 0 15px #11ff00; }
+      background-color: #00ffdd;
+      box-shadow: 0 0 15px #00ffdd; }
     #contact figure:nth-child(2) {
-      background-color: #00ff2f;
-      box-shadow: 0 0 15px #00ff2f; }
+      background-color: #00e1ff;
+      box-shadow: 0 0 15px #00e1ff; }
     #contact figure:nth-child(3) {
-      background-color: #00ff6f;
-      box-shadow: 0 0 15px #00ff6f; }
+      background-color: #00a2ff;
+      box-shadow: 0 0 15px #00a2ff; }
     #contact figure:nth-child(4) {
-      background-color: #00ffae;
-      box-shadow: 0 0 15px #00ffae; }
+      background-color: #0062ff;
+      box-shadow: 0 0 15px #0062ff; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #ee00ff;
-      box-shadow: 0 0 15px #ee00ff; }
+      background-color: #ff0022;
+      box-shadow: 0 0 15px #ff0022; }
 
 @keyframes pulse {
   0% {
