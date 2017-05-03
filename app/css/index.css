@@ -2707,16 +2707,14 @@ template {
 
 body {
   background: url("http://unsplash.it/1200") no-repeat center center cover;
-  max-height: 100vh;
-  font-family: 'Archivo Black', sans-serif; }
+  max-height: 100vh; }
 
 a {
   color: black;
   text-decoration: none; }
 
 ul {
-  padding: 0;
-  font-family: 'Archivo Narrow', sans-serif; }
+  padding: 0; }
 
 li {
   cursor: pointer;
@@ -2744,9 +2742,10 @@ object {
   font-size: 2vh;
   font-family: monospace; }
 
-#landing {
+.landing {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
   height: 97.5vh; }
 
@@ -2754,24 +2753,29 @@ object {
   margin: 25vh 0 0 0;
   line-height: 8vh;
   font-size: 8vh;
-  font-family: cursive; }
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: .1em; }
 
 .landing-subhead {
   font-size: 2vh;
-  font-family: cursive; }
+  font-family: 'Archivo Black', sans-serif; }
 
 .link-list {
-  margin: 10vh 0 0 0;
+  display: flex;
+  justify-content: center;
+  margin: 10vh 35vw;
   border: 1px solid black;
   border-radius: 5px; }
 
 .link-item {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 2em;
   width: 10vw;
   border-left: 1px solid black;
   font-size: 2vh;
-  font-family: cursive; }
+  font-family: 'Archivo Narrow', sans-serif; }
   .link-item:first-child {
     border-left: none; }
 
@@ -2840,21 +2844,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #ff000d;
-      box-shadow: 0 0 15px #ff000d; }
+      background-color: #00aeff;
+      box-shadow: 0 0 15px #00aeff; }
     #contact figure:nth-child(2) {
-      background-color: #ff3300;
-      box-shadow: 0 0 15px #ff3300; }
+      background-color: #006fff;
+      box-shadow: 0 0 15px #006fff; }
     #contact figure:nth-child(3) {
-      background-color: #ff7300;
-      box-shadow: 0 0 15px #ff7300; }
+      background-color: #002fff;
+      box-shadow: 0 0 15px #002fff; }
     #contact figure:nth-child(4) {
-      background-color: #ffb300;
-      box-shadow: 0 0 15px #ffb300; }
+      background-color: #1100ff;
+      box-shadow: 0 0 15px #1100ff; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #00fff2;
-      box-shadow: 0 0 15px #00fff2; }
+      background-color: #ff5100;
+      box-shadow: 0 0 15px #ff5100; }
 
 @keyframes pulse {
   0% {
