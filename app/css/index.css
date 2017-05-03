@@ -2753,12 +2753,12 @@ object {
   margin: 25vh 0 0 0;
   line-height: 8vh;
   font-size: 8vh;
-  font-family: 'Archivo Black', sans-serif;
-  letter-spacing: .1em; }
+  font-family: 'Archivo Black', sans-serif; }
 
 .landing-subhead {
   font-size: 2vh;
-  font-family: 'Archivo Black', sans-serif; }
+  font-family: 'Archivo Black', sans-serif;
+  letter-spacing: 1em; }
 
 .link-list {
   display: flex;
@@ -2844,21 +2844,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #00aeff;
-      box-shadow: 0 0 15px #00aeff; }
+      background-color: #11ff00;
+      box-shadow: 0 0 15px #11ff00; }
     #contact figure:nth-child(2) {
-      background-color: #006fff;
-      box-shadow: 0 0 15px #006fff; }
+      background-color: #00ff2f;
+      box-shadow: 0 0 15px #00ff2f; }
     #contact figure:nth-child(3) {
-      background-color: #002fff;
-      box-shadow: 0 0 15px #002fff; }
+      background-color: #00ff6f;
+      box-shadow: 0 0 15px #00ff6f; }
     #contact figure:nth-child(4) {
-      background-color: #1100ff;
-      box-shadow: 0 0 15px #1100ff; }
+      background-color: #00ffae;
+      box-shadow: 0 0 15px #00ffae; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #ff5100;
-      box-shadow: 0 0 15px #ff5100; }
+      background-color: #ee00ff;
+      box-shadow: 0 0 15px #ee00ff; }
 
 @keyframes pulse {
   0% {
