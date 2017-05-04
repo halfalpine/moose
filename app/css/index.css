@@ -2848,21 +2848,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #00ffdd;
-      box-shadow: 0 0 15px #00ffdd; }
+      background-color: #ffc400;
+      box-shadow: 0 0 15px #ffc400; }
     #contact figure:nth-child(2) {
-      background-color: #00e1ff;
-      box-shadow: 0 0 15px #00e1ff; }
+      background-color: #fbff00;
+      box-shadow: 0 0 15px #fbff00; }
     #contact figure:nth-child(3) {
-      background-color: #00a2ff;
-      box-shadow: 0 0 15px #00a2ff; }
+      background-color: #bbff00;
+      box-shadow: 0 0 15px #bbff00; }
     #contact figure:nth-child(4) {
-      background-color: #0062ff;
-      box-shadow: 0 0 15px #0062ff; }
+      background-color: #7bff00;
+      box-shadow: 0 0 15px #7bff00; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #ff0022;
-      box-shadow: 0 0 15px #ff0022; }
+      background-color: #003cff;
+      box-shadow: 0 0 15px #003cff; }
 
 @keyframes pulse {
   0% {

@@ -1,30 +1,30 @@
-(function(){
+(function() {
 
   const Data = [
     {
-      projectURL: 'spaghetti',
+      projectURL: 'Where2Surf',
       projectTitle: 'bar',
     },
     {
-      projectURL: 'california',
+      projectURL: 'Simon',
       projectTitle: 'california',
     },
     {
-      projectURL: 'dirk',
-      projectTitle: 'dirk'
+      projectURL: 'Tic Tac Toe',
+      projectTitle: 'dirk',
     },
     {
-      projectURL: 'milk',
+      projectURL: 'Calculator',
       projectTitle: 'milk',
     },
     {
-      projectURL: 'sloper',
+      projectURL: 'Weather',
       projectTitle: 'sloper',
     },
     {
-      projectURL: 'dirk',
-      projectTitle: 'glass'
-    }
+      projectURL: 'Portfolio',
+      projectTitle: 'glass',
+    },
   ];
 
   let createFigure = function(data) {
