@@ -36,7 +36,7 @@
   let createFigure = function(data) {
     return `
       <figure>
-        <img src="${data.projectIMG}" alt="${data.projectTitle}"
+        <img src="${data.projectIMG}" alt="${data.projectTitle}">
         <figcaption>
           <a href=${data.projectURL}>
             <p class="project-title">${data.projectTitle}</p>
@@ -46,11 +46,10 @@
     `
   };
 
-  let portfolio = document.querySelector('.portfolio-container');
+  const portfolio = document.querySelector('.portfolio-container');
 
   Data.map(item => console.log(item));
   portfolio.innerHTML = Data.map(item => createFigure(item))
     .join('');
 
-  console.log('hi');
 })();

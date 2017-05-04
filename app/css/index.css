@@ -2753,7 +2753,7 @@ object {
   height: 97.5vh; }
 
 .landing-headline {
-  margin: 30vh 0 2vh 0;
+  margin: 30vh 0 5vh 0;
   line-height: 8vh;
   font-size: 10rem;
   font-family: 'Archivo Black', sans-serif; }
@@ -2775,7 +2775,7 @@ object {
   justify-content: center;
   align-items: center;
   height: 2em;
-  width: 10vw;
+  width: 20vw;
   border-left: 1px solid black;
   font-size: 3rem;
   font-family: 'Archivo Narrow', sans-serif;
@@ -2848,21 +2848,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #ffc400;
-      box-shadow: 0 0 15px #ffc400; }
+      background-color: #00ffa6;
+      box-shadow: 0 0 15px #00ffa6; }
     #contact figure:nth-child(2) {
-      background-color: #fbff00;
-      box-shadow: 0 0 15px #fbff00; }
+      background-color: #00ffe6;
+      box-shadow: 0 0 15px #00ffe6; }
     #contact figure:nth-child(3) {
-      background-color: #bbff00;
-      box-shadow: 0 0 15px #bbff00; }
+      background-color: #00d9ff;
+      box-shadow: 0 0 15px #00d9ff; }
     #contact figure:nth-child(4) {
-      background-color: #7bff00;
-      box-shadow: 0 0 15px #7bff00; }
+      background-color: #0099ff;
+      box-shadow: 0 0 15px #0099ff; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #003cff;
-      box-shadow: 0 0 15px #003cff; }
+      background-color: #ff0059;
+      box-shadow: 0 0 15px #ff0059; }
 
 @keyframes pulse {
   0% {
