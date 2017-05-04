@@ -3,33 +3,40 @@
   const Data = [
     {
       projectURL: 'Where2Surf',
-      projectTitle: 'bar',
+      projectTitle: 'http://138.197.68.147',
+      projectIMG: 'img/where2surf.jpg',
     },
     {
       projectURL: 'Simon',
-      projectTitle: 'california',
+      projectTitle: 'https://halfalpine.github.io/simon/',
+      projectIMG: 'img/simon.jpg',
     },
     {
       projectURL: 'Tic Tac Toe',
-      projectTitle: 'dirk',
+      projectTitle: 'https://halfalpine.github.io/tic-tac-toe/',
+      projectIMG: 'img/tic-tac-toe.jpg',
     },
     {
       projectURL: 'Calculator',
-      projectTitle: 'milk',
+      projectTitle: 'https://halfalpine.github.io/javascript-calculator/',
+      projectIMG: 'img/javascript-calculator.jpg',
     },
     {
       projectURL: 'Weather',
-      projectTitle: 'sloper',
+      projectTitle: 'https://halfalpine.github.io/local-weather/',
+      projectIMG: 'img/local-weather.jpg',
     },
     {
       projectURL: 'Portfolio',
-      projectTitle: 'glass',
+      projectTitle: 'https://halfalpine.github.io/javascript-calculator/',
+      projectIMG: 'img/portfolio.jpg',
     },
   ];
 
   let createFigure = function(data) {
     return `
       <figure>
+        <img src="${data.projectIMG}" alt="${data.projectTitle}"
         <figcaption>
           <a href=${data.projectURL}>
             <p class="project-title">${data.projectTitle}</p>
