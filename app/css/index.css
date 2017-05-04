@@ -2744,7 +2744,8 @@ object {
   background: #222;
   padding: .25vh .25em 0;
   font-size: 1.75em;
-  font-family: 'Archivo Narrow', sans-serif; }
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: .25em; }
 
 .landing {
   display: flex;
@@ -2849,21 +2850,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #0048ff;
-      box-shadow: 0 0 15px #0048ff; }
+      background-color: #8cff00;
+      box-shadow: 0 0 15px #8cff00; }
     #contact figure:nth-child(2) {
-      background-color: #0009ff;
-      box-shadow: 0 0 15px #0009ff; }
+      background-color: #4dff00;
+      box-shadow: 0 0 15px #4dff00; }
     #contact figure:nth-child(3) {
-      background-color: #3700ff;
-      box-shadow: 0 0 15px #3700ff; }
+      background-color: #0dff00;
+      box-shadow: 0 0 15px #0dff00; }
     #contact figure:nth-child(4) {
-      background-color: #7700ff;
-      box-shadow: 0 0 15px #7700ff; }
+      background-color: #00ff33;
+      box-shadow: 0 0 15px #00ff33; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #ffb700;
-      box-shadow: 0 0 15px #ffb700; }
+      background-color: #7300ff;
+      box-shadow: 0 0 15px #7300ff; }
 
 @keyframes pulse {
   0% {
