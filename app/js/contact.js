@@ -34,9 +34,7 @@ let createContact = function(data) {
   `;
 };
 
-
-
-let contact = document.querySelector('.contact-container');
+const contact = document.querySelector('.contact-container');
 contact.innerHTML = Data.map(item => createContact(item)).join('');
 
 console.log('hi');

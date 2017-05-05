@@ -2835,7 +2835,7 @@ object {
     color: white; }
 
 #contact {
-  height: 100vh;
+  min-height: 100vh;
   background: salmon; }
   #contact h1 {
     margin: 0;
@@ -2853,27 +2853,29 @@ object {
     width: 15vw;
     margin: 2vw;
     border-radius: 5%;
+    font-family: 'Archivo Narrow', sans-serif;
+    letter-spacing: .1em;
     animation-name: pulse;
     animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #aa00ff;
-      box-shadow: 0 0 15px #aa00ff; }
+      background-color: #ff009d;
+      box-shadow: 0 0 15px #ff009d; }
     #contact figure:nth-child(2) {
-      background-color: #ea00ff;
-      box-shadow: 0 0 15px #ea00ff; }
+      background-color: #ff005e;
+      box-shadow: 0 0 15px #ff005e; }
     #contact figure:nth-child(3) {
-      background-color: #ff00d5;
-      box-shadow: 0 0 15px #ff00d5; }
+      background-color: #ff001e;
+      box-shadow: 0 0 15px #ff001e; }
     #contact figure:nth-child(4) {
-      background-color: #ff0095;
-      box-shadow: 0 0 15px #ff0095; }
+      background-color: #ff2200;
+      box-shadow: 0 0 15px #ff2200; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #55ff00;
-      box-shadow: 0 0 15px #55ff00; }
+      background-color: #00ff62;
+      box-shadow: 0 0 15px #00ff62; }
 
 @keyframes pulse {
   0% {
