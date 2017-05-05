@@ -24,7 +24,7 @@
     {
       projectTitle: 'Weather',
       projectURL: 'https://halfalpine.github.io/local-weather/',
-      projectIMG: 'app/img/local-weather.jpg',
+      projectIMG: 'img/local-weather.jpg',
     },
     {
       projectTitle: 'Portfolio',
@@ -35,7 +35,8 @@
 
   let createFigure = function(data) {
     return `
-      <figure style="background-image:url(${data.projectIMG})">
+      <figure style="background:url(${data.projectIMG}) no-repeat center center;
+      background-size: contain; background-color: #333">
         <figcaption>
           <a href=${data.projectURL}>
             <p class="project-title">${data.projectTitle}</p>
