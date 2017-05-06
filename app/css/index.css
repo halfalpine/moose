@@ -2778,7 +2778,7 @@ li {
 
 .landing-headline {
   margin: 0 0 5vh 0;
-  line-height: 5rem;
+  line-height: 8rem;
   text-align: center;
   font-size: 10rem;
   font-family: 'Archivo Black', sans-serif; }
@@ -2786,7 +2786,7 @@ li {
 .landing-subhead {
   font-size: 3rem;
   font-family: 'Archivo Black', sans-serif;
-  letter-spacing: 1.5rem; }
+  letter-spacing: 1rem; }
 
 .link-list {
   display: flex;
@@ -2900,16 +2900,16 @@ li {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #e6ff00; }
+      background-color: #ff0080; }
     #contact figure:nth-child(2) {
-      background-color: #a6ff00; }
+      background-color: #ff0040; }
     #contact figure:nth-child(3) {
-      background-color: #66ff00; }
+      background-color: red; }
     #contact figure:nth-child(4) {
-      background-color: #26ff00; }
+      background-color: #ff4000; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #1a00ff; }
+      background-color: #00ff80; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
