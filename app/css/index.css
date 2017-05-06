@@ -2734,21 +2734,6 @@ li {
 .hide {
   display: none; }
 
-.resume-container {
-  display: none; }
-
-object {
-  height: 100vh;
-  width: 100vw; }
-
-.show {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw; }
-
 .top {
   height: 5vh;
   color: #fff;
@@ -2885,16 +2870,16 @@ object {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #ff9100; }
+      background-color: #ffea00; }
     #contact figure:nth-child(2) {
-      background-color: #ffd000; }
+      background-color: #d5ff00; }
     #contact figure:nth-child(3) {
-      background-color: #eeff00; }
+      background-color: #95ff00; }
     #contact figure:nth-child(4) {
-      background-color: #aeff00; }
+      background-color: #55ff00; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #006fff; }
+      background-color: #0015ff; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
