@@ -2816,6 +2816,32 @@ li {
     width: auto;
     padding: 2rem; } }
 
+@media only screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 1) {
+  .landing {
+    min-width: 495px; }
+  .logo-landing {
+    margin: 0 auto;
+    padding: 0;
+    width: 90vw;
+    height: 90vh; }
+  .landing-headline {
+    margin: 10vh 0 2vh 0;
+    font-size: 6rem; }
+  .landing-subhead {
+    font-size: 2rem;
+    letter-spacing: .5rem;
+    margin: 0; }
+  .link-list {
+    flex-direction: column;
+    margin-top: 12vh; }
+  .link-item {
+    width: auto;
+    padding: 2rem;
+    border-left: none;
+    border-bottom: 1px solid black; }
+    .link-item:last-child {
+      border-bottom: none; } }
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .logo-landing {
     margin: 0 auto;
@@ -2900,16 +2926,16 @@ li {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: cyan; }
+      background-color: #0048ff; }
     #contact figure:nth-child(2) {
-      background-color: deepskyblue; }
+      background-color: #0009ff; }
     #contact figure:nth-child(3) {
-      background-color: #0080ff; }
+      background-color: #3700ff; }
     #contact figure:nth-child(4) {
-      background-color: #0040ff; }
+      background-color: #7700ff; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: red; }
+      background-color: #ffb700; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
