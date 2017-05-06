@@ -2723,6 +2723,14 @@ li {
   cursor: pointer;
   list-style: none; }
 
+.section-title {
+  margin: 10vh auto;
+  padding: 5vh 5vw;
+  text-align: center;
+  font-size: 5rem;
+  letter-spacing: .5rem;
+  box-shadow: inset -10px -10px blue, inset 10px 10px green; }
+
 .hide {
   display: none; }
 
@@ -2813,17 +2821,8 @@ object {
   flex-direction: column;
   justify-content: center;
   min-height: 100vh;
-  font-family: sans-serif;
   border-top: 1px solid black;
   border-bottom: 1px solid black; }
-  #portfolio h1 {
-    margin: 10vh auto;
-    padding: 5vh 5vw;
-    text-align: center;
-    font-size: 5rem;
-    letter-spacing: .5rem;
-    box-shadow: inset -10px -10px blue, inset 10px 10px green;
-    border: solid black 2px; }
   #portfolio .portfolio-container {
     display: flex;
     flex-flow: row wrap;
@@ -2857,54 +2856,38 @@ object {
     color: white; }
 
 #contact {
-  min-height: 100vh;
-  background: salmon; }
-  #contact h1 {
-    margin: 0;
-    padding-top: 1vh;
-    margin-left: 5vw; }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh; }
   #contact .contact-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    margin-top: 20vh; }
+    margin: 0 10vw 0; }
   #contact figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 15vw;
-    width: 15vw;
+    height: 25vw;
+    width: 25vw;
     margin: 2vw;
-    border-radius: 5%;
     font-family: 'Archivo Narrow', sans-serif;
-    letter-spacing: .1em;
-    animation-name: pulse;
-    animation-duration: 10s;
-    animation-timing-function: ease-in-out;
-    animation-direction: alternate;
-    animation-iteration-count: infinite; }
+    letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #00fffb;
-      box-shadow: 0 0 15px #00fffb; }
+      background-color: #ffb700;
+      box-shadow: inset -5px -5px #ffe100, inset 5px 5px darkorange; }
     #contact figure:nth-child(2) {
-      background-color: #00c4ff;
-      box-shadow: 0 0 15px #00c4ff; }
+      background-color: #fff700;
+      box-shadow: inset -5px -5px #ffe100, inset 5px 5px darkorange; }
     #contact figure:nth-child(3) {
-      background-color: #0084ff;
-      box-shadow: 0 0 15px #0084ff; }
+      background-color: #c8ff00;
+      box-shadow: inset -5px -5px #ffe100, inset 5px 5px darkorange; }
     #contact figure:nth-child(4) {
-      background-color: #0044ff;
-      box-shadow: 0 0 15px #0044ff; }
+      background-color: #88ff00;
+      box-shadow: inset -5px -5px #ffe100, inset 5px 5px darkorange; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #ff0004;
-      box-shadow: 0 0 15px #ff0004; }
-
-@keyframes pulse {
-  0% {
-    height: 15vw;
-    width: 15vw; }
-  100% {
-    height: 15.2vw;
-    width: 15.2vw; } }
+      background-color: #0048ff; }
   #contact i, #contact figcaption {
     text-align: center; }
