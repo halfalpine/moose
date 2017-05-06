@@ -2810,6 +2810,11 @@ li {
     color: blue;
     text-decoration: blue underline; }
 
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .link-item {
+    width: auto;
+    padding: 2rem; } }
+
 #portfolio {
   display: flex;
   flex-direction: column;
@@ -2869,16 +2874,16 @@ li {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #c8ff00; }
+      background-color: #ff2b00; }
     #contact figure:nth-child(2) {
-      background-color: #88ff00; }
+      background-color: #ff6a00; }
     #contact figure:nth-child(3) {
-      background-color: #48ff00; }
+      background-color: #ffaa00; }
     #contact figure:nth-child(4) {
-      background-color: #09ff00; }
+      background-color: #ffea00; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #3700ff; }
+      background-color: #00d5ff; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
