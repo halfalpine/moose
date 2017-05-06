@@ -2709,7 +2709,6 @@ html {
   font-size: 62.5%; }
 
 body {
-  background: url("http://unsplash.it/1200") no-repeat center center cover;
   max-height: 100vh; }
 
 a {
@@ -2870,16 +2869,16 @@ li {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #ff5900; }
+      background-color: #ff8800; }
     #contact figure:nth-child(2) {
-      background-color: #ff9900; }
+      background-color: #ffc800; }
     #contact figure:nth-child(3) {
-      background-color: #ffd900; }
+      background-color: #f7ff00; }
     #contact figure:nth-child(4) {
-      background-color: #e6ff00; }
+      background-color: #b7ff00; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #00a6ff; }
+      background-color: #0077ff; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
