@@ -2728,7 +2728,7 @@ li {
   text-align: center;
   font-size: 5rem;
   letter-spacing: .5rem;
-  box-shadow: inset -10px -10px blue, inset 10px 10px green; }
+  box-shadow: inset -5px -5px blue, inset 5px 5px green; }
 
 .hide {
   display: none; }
@@ -2900,16 +2900,16 @@ li {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #ff0080; }
+      background-color: cyan; }
     #contact figure:nth-child(2) {
-      background-color: #ff0040; }
+      background-color: deepskyblue; }
     #contact figure:nth-child(3) {
-      background-color: red; }
+      background-color: #0080ff; }
     #contact figure:nth-child(4) {
-      background-color: #ff4000; }
+      background-color: #0040ff; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #00ff80; }
+      background-color: red; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
