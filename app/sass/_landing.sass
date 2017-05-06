@@ -118,3 +118,14 @@
     border-bottom: 1px solid black
     &:last-child
       border-bottom: none
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)
+  .logo-landing
+    margin: 0 auto
+    padding: 0
+    width: 90vw
+    height: 90vh
+    box-shadow: inset -10px -10px blue, inset 10px 10px green
+  .landing-headline
+    margin: 10vh 0 2vh 0
+    font-size: 8rem

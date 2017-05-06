@@ -23,6 +23,9 @@ li
   cursor: pointer
   list-style: none
 
+section
+  margin: 0 auto
+
 // Classes used across sections
 .section-title
   margin: 5vh auto
@@ -37,6 +40,12 @@ li
   display: none
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)
+  .section-title
+    max-width: 80vw
+    font-size: 4rem
+    padding: 3vh 3vw
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)
   .section-title
     max-width: 80vw
     font-size: 4rem

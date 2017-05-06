@@ -2723,6 +2723,9 @@ li {
   cursor: pointer;
   list-style: none; }
 
+section {
+  margin: 0 auto; }
+
 .section-title {
   margin: 5vh auto;
   padding: 5vh 5vw;
@@ -2735,6 +2738,12 @@ li {
   display: none; }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .section-title {
+    max-width: 80vw;
+    font-size: 4rem;
+    padding: 3vh 3vw; } }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   .section-title {
     max-width: 80vw;
     font-size: 4rem;
@@ -2844,6 +2853,17 @@ li {
     .link-item:last-child {
       border-bottom: none; } }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .logo-landing {
+    margin: 0 auto;
+    padding: 0;
+    width: 90vw;
+    height: 90vh;
+    box-shadow: inset -10px -10px blue, inset 10px 10px green; }
+  .landing-headline {
+    margin: 10vh 0 2vh 0;
+    font-size: 8rem; } }
+
 #portfolio {
   display: flex;
   flex-direction: column;
@@ -2890,6 +2910,12 @@ li {
     -webkit-margin-start: 0;
     -webkit-margin-end: 0; } }
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #portfolio {
+    margin-top: 20vh; }
+    #portfolio .portfolio-container {
+      width: 100vw; } }
+
 #contact {
   display: flex;
   flex-direction: column;
@@ -2910,19 +2936,23 @@ li {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #ff0055; }
+      background-color: #b700ff; }
     #contact figure:nth-child(2) {
-      background-color: #ff0015; }
+      background-color: #f700ff; }
     #contact figure:nth-child(3) {
-      background-color: #ff2b00; }
+      background-color: #ff00c8; }
     #contact figure:nth-child(4) {
-      background-color: #ff6a00; }
+      background-color: #ff0088; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #00ffaa; }
+      background-color: #48ff00; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
     flex: 1;
     text-align: center;
     font-size: 5rem; }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  #contact figure {
+    height: 15vh; } }
