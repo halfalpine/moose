@@ -2757,16 +2757,25 @@ object {
   margin: 0 0 0 1rem;
   font-family: 'Archivo Narrow', sans-serif;
   font-size: 1.5rem; }
+  .header-item:hover {
+    color: blue;
+    text-decoration: blue underline; }
 
 .landing {
+  height: 97.5vh; }
+
+.logo-landing {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 97.5vh; }
+  margin: 10vh auto;
+  padding: 10vh;
+  width: 70vw;
+  box-shadow: inset -50px -50px blue, inset 50px 50px green; }
 
 .landing-headline {
-  margin: 30vh 0 5vh 0;
+  margin: 0 0 5vh 0;
   line-height: 8vh;
   font-size: 10rem;
   font-family: 'Archivo Black', sans-serif; }
@@ -2779,7 +2788,7 @@ object {
 .link-list {
   display: flex;
   justify-content: center;
-  margin: 15vh 35vw;
+  margin: 15vh 35vw 0 35vw;
   border: 1px solid black;
   border-radius: 5px; }
 
@@ -2795,6 +2804,9 @@ object {
   letter-spacing: .25rem; }
   .link-item:first-child {
     border-left: none; }
+  .link-item:hover .link {
+    color: blue;
+    text-decoration: blue underline; }
 
 #portfolio {
   min-height: 100vh;
@@ -2862,21 +2874,21 @@ object {
     animation-direction: alternate;
     animation-iteration-count: infinite; }
     #contact figure:nth-child(1) {
-      background-color: #4000ff;
-      box-shadow: 0 0 15px #4000ff; }
+      background-color: #00ffaa;
+      box-shadow: 0 0 15px #00ffaa; }
     #contact figure:nth-child(2) {
-      background-color: #8000ff;
-      box-shadow: 0 0 15px #8000ff; }
+      background-color: #00ffea;
+      box-shadow: 0 0 15px #00ffea; }
     #contact figure:nth-child(3) {
-      background-color: #bf00ff;
-      box-shadow: 0 0 15px #bf00ff; }
+      background-color: #00d5ff;
+      box-shadow: 0 0 15px #00d5ff; }
     #contact figure:nth-child(4) {
-      background-color: magenta;
-      box-shadow: 0 0 15px magenta; }
+      background-color: #0095ff;
+      box-shadow: 0 0 15px #0095ff; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #bfff00;
-      box-shadow: 0 0 15px #bfff00; }
+      background-color: #ff0055;
+      box-shadow: 0 0 15px #ff0055; }
 
 @keyframes pulse {
   0% {

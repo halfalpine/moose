@@ -1,12 +1,18 @@
 .landing
+  height: 97.5vh
+
+.logo-landing
   display: flex
   flex-direction: column
   justify-content: flex-start
   align-items: center
-  height: 97.5vh
+  margin: 10vh auto
+  padding: 10vh
+  width: 70vw
+  box-shadow: inset -50px -50px blue, inset 50px 50px green
 
 .landing-headline
-  margin: 30vh 0 5vh 0
+  margin: 0 0 5vh 0
   line-height: 8vh
   font:
     size: 10rem
@@ -21,7 +27,7 @@
 .link-list
   display: flex
   justify-content: center
-  margin: 15vh 35vw
+  margin: 15vh 35vw 0 35vw
   border: 1px solid black
   border-radius: 5px
 
@@ -38,3 +44,8 @@
     size: 3rem
     family: 'Archivo Narrow', sans-serif
   letter-spacing: .25rem
+
+  &:hover
+    .link
+      color: blue
+      text-decoration: blue underline
