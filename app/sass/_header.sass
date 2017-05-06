@@ -1,12 +1,4 @@
-.top
-  height: 5vh
-  color: #fff
-  background: #222
-  padding: .25vh .25em 0
-  font:
-    size: 1.75em
-    family: 'Archivo Narrow', sans-serif
-  letter-spacing: .25em
+.header
 
 .header-links
   display: flex
@@ -29,3 +21,7 @@
   color: green
   background-color: green
   box-shadow: inset -10px -10px blue, inset 10px 10px green
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)
+  .header
+    width: 100vw
