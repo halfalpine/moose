@@ -2925,7 +2925,8 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    margin: 0 10vw 0;
+    margin: 0 auto;
+    max-width: 768px;
     box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.8); }
   #contact figure {
     display: flex;
@@ -2936,22 +2937,31 @@ section {
     font-family: 'Archivo Narrow', sans-serif;
     letter-spacing: .1em; }
     #contact figure:nth-child(1) {
-      background-color: #b700ff; }
+      background-color: #ff00ea; }
     #contact figure:nth-child(2) {
-      background-color: #f700ff; }
+      background-color: #ff00aa; }
     #contact figure:nth-child(3) {
-      background-color: #ff00c8; }
+      background-color: #ff006a; }
     #contact figure:nth-child(4) {
-      background-color: #ff0088; }
+      background-color: #ff002b; }
     #contact figure:hover {
       cursor: pointer;
-      background-color: #48ff00; }
+      background-color: #00ff15; }
+  #contact a {
+    display: flex;
+    width: 100%; }
   #contact i, #contact figcaption {
     display: inline-block;
     margin: auto;
+    padding: 0 8rem;
     flex: 1;
-    text-align: center;
     font-size: 5rem; }
+  #contact i {
+    text-align: right; }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  #contact i, #contact figcaption {
+    padding: 0 2rem; } }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
   #contact figure {

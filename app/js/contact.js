@@ -26,10 +26,12 @@
 let createContact = function(data) {
   return `
     <figure class="contact-figure">
+      <a href='${data.url}'>
         <i class="${data.fa} fa-5x" aria-hidden="true"></i>
         <figcaption>
-          <a href='${data.url}'>${data.title}</a>
+          ${data.title}
         </figcaption>
+      </a>
     </figure>
   `;
 };

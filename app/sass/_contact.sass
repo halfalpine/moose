@@ -8,7 +8,8 @@
     display: flex
     flex-wrap: wrap
     justify-content: flex-start
-    margin: 0 10vw 0
+    margin: 0 auto
+    max-width: 768px
     box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.8)
 
   figure
@@ -35,14 +36,24 @@
       cursor: pointer
       background-color: hsl($hue + 180, 100%, 50%)
 
+  a
+    display: flex
+    width: 100%
 
   i, figcaption
     display: inline-block
     margin: auto
+    padding: 0 8rem
     flex: 1
-    text-align: center
     font-size: 5rem
+  i
+    text-align: right
 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait)
+  #contact
+    i, figcaption
+      padding: 0 2rem
+      
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape)
   #contact
     figure
